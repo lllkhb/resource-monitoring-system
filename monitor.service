@@ -1,0 +1,20 @@
+[Unit]
+Description=Системний моніторинг телеметрії
+After=multi-user.target
+
+[Service]
+Type=simple
+User=root
+Group=root
+WorkingDirectory=/home/user1/PycharmProjects/Lab_1
+Environment="PYTHONUNBUFFERED=1"
+ExecStart=/usr/bin/python3.13 /home/user1/PycharmProjects/Lab_1/sys_monitor.py
+Restart=on-failure
+RestartSec=5s
+StandardOutput=journal
+StandardError=journal
+KillSignal=SIGTERM
+TimeoutStopSec=10
+
+[Install]
+WantedBy=multi-user.target
