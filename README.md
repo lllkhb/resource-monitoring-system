@@ -12,4 +12,9 @@ Python-скрипт для періодичного збору телеметр�
 - Якщо бібліотека `gpiod` або GPIO-пристрій відсутні (наприклад, у WSL), скрипт продовжує працювати без керування GPIO.
 
 Блок-схема проекту:
-<img width="859" height="1330" alt="блок-схема до sys_monitor drawio" src="https://github.com/user-attachments/assets/497c3387-4bdf-4e5e-99b7-1e7d6a45381e" />
+<img width="859" height="1391" alt="блок-схема drawio" src="https://github.com/user-attachments/assets/63082a4d-e1d8-4c00-80b3-66810042c3a4" />
+
+Вивід даних у файл telemetry.csv
+<img width="979" height="508" alt="image" src="https://github.com/user-attachments/assets/afc4e760-72ae-4c94-ab6c-b0eae95bc60d" />
+
+
